@@ -19,7 +19,7 @@ router
 router
    .route('/:id')
    .get(controllers.getOne)
-   put(controllers.updateOne)
+   .put(controllers.updateOne)
    .delete(controller.removeOne)
 
 

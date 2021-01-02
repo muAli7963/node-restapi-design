@@ -29,7 +29,7 @@ const start = async ()=> {
 	try {
 		await connect();
 	    app.listen(config.port, () => {
-           console.log(`APP IS RUNNING ON http://localhost:${config.port}/`);
+           console.log(`APP IS RUNNING ON http://localhost:${config.port}/api`);
 });
 
 	} catch(e) {
